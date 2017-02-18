@@ -1,5 +1,5 @@
 
-set(ICON_NAME zzz)
+set(ICON_NAME redmine-notifier)
 FILE(TO_NATIVE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/${ICON_NAME}.ico ICON)
 string(REPLACE "\\" "\\\\" ICON ${ICON})
 file(WRITE ${CMAKE_CURRENT_BINARY_DIR}/${ICON_NAME}.rc "IDI_ICON1        ICON        DISCARDABLE    \"${ICON}\"\n")
